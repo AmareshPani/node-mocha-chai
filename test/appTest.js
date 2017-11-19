@@ -1,6 +1,6 @@
 const assert = require('chai').assert;
 //const app = require('../app').myq;
-const hash = require('../app').myq;
+const mq = require('../app').myq;
 //const dict = require('../app').dict;
 
 describe('App', function(){
@@ -24,7 +24,7 @@ describe('App', function(){
     // });
 
     it('App should return 1 entry', function(){
-      assert.equal( hash.enqueue('pani'), 1)
+      assert.equal( mq.enqueue('pani'), 'pani')
     });
 
 
