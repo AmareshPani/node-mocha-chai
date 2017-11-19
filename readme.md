@@ -3,8 +3,8 @@
 --> npm run test
 -------- Example ------------
 --- hash.enqueue takes 'pani' and returns 'pani' if not test fails
-it('App should return 1 entry', function(){
-  assert.equal( hash.enqueue('pani'), 'pani')
+it('App should return pani entry', function(){
+  assert.equal( myq.enqueue('pani'), 'pani')
 });
 
 
